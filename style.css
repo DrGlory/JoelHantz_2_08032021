@@ -1,0 +1,990 @@
+@font-face 
+{
+  font-family: 'Raleway';
+  src: url('Police/static/Raleway-Medium.ttf');
+  font-style: normal;
+  font-weight: normal;
+}
+html,body
+{
+  margin-left: 2em;
+  margin-right: 2em;
+}
+/* ----HEADER START---- */
+.part-1
+{
+  font-family: raleway;
+  display: flex;
+  justify-content: space-between;
+}
+.part-1 .logo
+{
+  padding-top: 1%;
+}
+.part-1 nav
+{
+  display: flex;
+}
+.part-1 .intrus
+{
+  margin-left: 10px;
+  padding-top: 24px;
+  color: #0065FC;
+  cursor: pointer;
+}
+.part-1 ul
+{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.part-1 li
+{
+  display: inline-block;
+  color: #0065FC;
+  margin:0 15px;
+}
+
+.part-1 a
+{
+  text-decoration: none;
+  color: black;
+  padding: 40px 20px;
+  display: block;
+}
+.part-1 a:hover
+{
+  border-top: 2px #0065FC solid;
+  color: #0065FC;
+}
+
+.part-2
+{
+  font-family: raleway;
+}
+.map
+{
+  position: absolute;
+  padding-left:20px;
+  padding-top: 12px;
+  background: #F2F2F2;
+  border: 2px #F2F2F2 solid;
+  border-radius: 10px 0px 0px 10px;
+  height: 34px;
+  width: 34px;
+}
+.chercher
+{
+  font-family: raleway;
+  font-weight: bold;
+  font-size: 1.1em;
+  padding-left: 17px;
+  margin-left:57px;
+  height: 50px;
+  width: 15%;
+  border: 1px #F2F2F2 solid;
+
+}
+.boutton
+{
+  font-family: Raleway;
+  font-size: 1em;
+  background-color: #0065FC;
+  border: 1px #0065FC solid;
+  color: #F2F2F2;
+  margin-right: 2%;
+  border-radius: 0px 10px 10px 0px;
+  position: absolute;
+  padding-top: 3px;
+  width: 7%;
+  height: 51px;
+}
+.part-3
+{
+  display: flex;
+  font-family: raleway;
+  font-weight: bold;
+  margin-top: 2%;
+}
+.filters a
+{
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  margin: 0 60px;
+}
+.filters a:hover
+{
+  filter: drop-shadow(1px 1px 15px rgb(59, 150, 255));
+  transition: transform 2s, filter 1.1s ease-in-out;
+  transform-origin: center center;
+  transform: scale(1.1)
+}
+.money
+{
+  position: absolute;
+  color: #0065FC;
+  background-color: #DEEBFF;
+  border: 1px black solid;
+  border-radius: 50%;
+  border-color: #DEEBFF;
+  padding: 1em 0.9em;
+}
+.eco
+{
+  display: inline-block;
+  border: 2px #d6d6d6 solid;
+  border-radius: 40px 40px 40px 40px;
+  padding: 0.9em 0.8em;
+  padding-left: 55%;
+  padding-right: 20%;
+}
+.fam
+{
+  position: absolute;
+  color: #0065FC;
+  background-color: #DEEBFF;
+  border: 1px black solid;
+  border-radius: 50%;
+  border-color: #DEEBFF;
+  padding: 1em 1.1em;
+}
+.mif
+{
+  display: inline-block;
+  border: 2px #d6d6d6 solid;
+  border-radius: 40px 40px 40px 40px;
+  padding: 0.9em 0.8em;
+  padding-left: 90%;
+  padding-right: 30%;
+}
+.hrt
+{
+  position: absolute;
+  color: #0065FC;
+  background-color: #DEEBFF;
+  border: 1px black solid;
+  border-radius: 50%;
+  border-color: #DEEBFF;
+  padding: 1em 1.1em;
+}
+.coeur
+{
+  display: inline-block;
+  border: 2px #d6d6d6 solid;
+  border-radius: 40px 40px 40px 40px;
+  padding: 0.9em 0.8em;
+  padding-left: 60%;
+  padding-right: 25%;
+}
+.snoop
+{
+  position: absolute;
+  color: #0065FC;
+  background-color: #DEEBFF;
+  border: 1px black solid;
+  border-radius: 50%;
+  border-color: #DEEBFF;
+  padding: 1em 1.1em;
+}
+.chien
+{
+  display: inline-block;
+  border: 2px #d6d6d6 solid;
+  border-radius: 40px 40px 40px 40px;
+  padding: 0.9em 0.8em;
+  padding-left: 50%;
+  padding-right: 25%;
+  width: 100%;
+}
+.part-4
+{
+  margin-top: 2%;
+}
+.part-4 .information
+{
+  position: absolute;
+  color: #0065FC;
+  background-color: #ffffff;
+  border: 1px black solid;
+  border-radius: 50%;
+  border-color: #DEEBFF;
+  padding: 0.3em 0.6em;
+}
+.part-4 .fif
+{
+  font-family: raleway;
+  display: inline-block;
+  padding-top: 0.3em;
+  padding-left: 30px;
+}
+/*----HEADER END---*/
+
+/*---SECTION 1 START---*/
+#hebergements
+{
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: 2fr 1fr;
+}
+
+#cards-hebergement-a-marseille
+{
+  font-family: raleway;
+  background-color: #F2F2F2;
+  padding-left: 5em;
+  padding-right: 3em;
+  padding-top: 2em;
+  border-radius: 25px 25px;
+  margin-top: 4%;
+  height: 750px;
+}
+#cards-hebergement-a-marseille h1
+{
+  padding-bottom: 1%;
+}
+.cards
+{
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  grid-template-rows: repeat(2,250px);
+  grid-gap:50px;
+}
+.card-1-auberge-la-cannebiere
+{
+  background-color: white;
+  padding: 6px;
+  border-radius: 23px 23px; 
+  box-shadow: 1px 1px 25px rgb(148, 148, 148);
+  line-height: 5%;
+  font-size: 20px;
+  height: 250px;
+  width: 100%;
+ 
+}
+.card-1-auberge-la-cannebiere a
+{
+  text-decoration: none;
+  color: black;
+}
+.card-1-auberge-la-cannebiere .firstprice
+{
+  font-weight: bold;
+}
+.card-1-auberge-la-cannebiere .la-cannebiere
+{
+  background-size: cover;
+  width: 250px;
+  height: 150px;
+  border-radius: 20px 20px 0px 0px;
+}
+.card-text, .stars
+{
+  padding-left: 14px;
+}
+.card-1-auberge-la-cannebiere:hover
+{
+  filter: drop-shadow(1px 1px 15px rgb(59, 242, 255));
+  transition: transform 2s, filter 1.1s ease-in-out;
+  transform-origin: center center;
+  transform: scale(1.1)
+}
+/*---ce stars fait office de couleur de toutes les étoiles---*/
+.stars
+{
+  color: #0065FC;
+  font-size: 15px;
+}
+/*--------ainsi que la moula le signe euro--------*/
+.card-text .moula
+{
+  font-weight: bold;
+}
+/*--------ainsi que toutes les étoiles grises--------*/
+.grey-star-one
+{
+  color: #cccbcb;
+}
+
+/*-----------------------------------------------------------*/
+
+.card-2-hotel-du-port
+{
+  font-family: raleway;
+  background-color: white;
+  padding: 6px;
+  border-radius: 23px 23px; 
+  box-shadow: 1px 1px 25px rgb(148, 148, 148);
+  height: 250px;
+  width: 100%;
+  line-height: 5%;
+  font-size: 20px;
+}
+
+
+.card-2-hotel-du-port a
+{
+  text-decoration: none;
+  color: black;
+}
+.card-2-hotel-du-port .hotel-du-port
+{
+  background-size: cover;
+  width: 250px;
+  height: 150px;
+  border-radius: 20px 20px 0px 0px;
+}
+.card-2-hotel-du-port:hover
+{
+  filter: drop-shadow(1px 1px 15px rgb(59, 242, 255));
+  transition: transform 2s, filter 1.1s ease-in-out;
+  transform-origin: center center;
+  transform: scale(1.1)
+}
+/*-----------------------------------*/
+.card-3-hotel-les-mouettes
+{
+  font-family: raleway;
+  background-color: white;
+  padding: 6px;
+  border-radius: 23px 23px; 
+  box-shadow: 1px 1px 25px rgb(148, 148, 148);
+  height: 250px;
+  width: 100%;
+  line-height: 5%;
+  font-size: 20px;
+}
+
+
+.card-3-hotel-les-mouettes a
+{
+  text-decoration: none;
+  color: black;
+}
+.card-3-hotel-les-mouettes .hotel-les-mouettes
+{
+  background-size: cover;
+  width: 250px;
+  height: 150px;
+  border-radius: 20px 20px 0px 0px;
+}
+.card-3-hotel-les-mouettes:hover
+{
+  filter: drop-shadow(1px 1px 15px rgb(59, 242, 255));
+  transition: transform 2s, filter 1.1s ease-in-out;
+  transform-origin: center center;
+  transform: scale(1.1)
+}
+/*-----------------------------------*/
+.card-4-hotel-de-la-mer
+{
+  font-family: raleway;
+  background-color: white;
+  padding: 6px;
+  border-radius: 23px 23px; 
+  box-shadow: 1px 1px 25px rgb(148, 148, 148);
+  height: 250px;
+  width: 100%;
+  line-height: 5%;
+  font-size: 20px;
+}
+
+
+.card-4-hotel-de-la-mer a
+{
+  text-decoration: none;
+  color: black;
+}
+.card-4-hotel-de-la-mer .hotel-de-la-mer
+{
+  background-size: cover;
+  width: 250px;
+  height: 150px;
+  border-radius: 20px 20px 0px 0px;
+}
+.card-4-hotel-de-la-mer:hover
+{
+  filter: drop-shadow(1px 1px 15px rgb(59, 242, 255));
+  transition: transform 2s, filter 1.1s ease-in-out;
+  transform-origin: center center;
+  transform: scale(1.1)
+}
+/*--------------------------------*/
+.card-5-Auberge-Le-Panier
+{
+  font-family: raleway;
+  background-color: white;
+  padding: 6px;
+  border-radius: 23px 23px; 
+  box-shadow: 1px 1px 25px rgb(148, 148, 148);
+  height: 250px;
+  width: 100%;
+  line-height: 5%;
+  font-size: 20px;
+}
+.card-5-Auberge-Le-Panier .fifprice
+{
+  font-weight: bold;
+}
+.card-5-Auberge-Le-Panier a
+{
+  text-decoration: none;
+  color: black;
+}
+.card-5-Auberge-Le-Panier .hotel-Le-Panier
+{
+  background-size: cover;
+  width: 250px;
+  height: 150px;
+  border-radius: 20px 20px 0px 0px;
+}
+.card-5-Auberge-Le-Panier:hover
+{
+  filter: drop-shadow(1px 1px 15px rgb(59, 242, 255));
+  transition: transform 2s, filter 1.1s ease-in-out;
+  transform-origin: center center;
+  transform: scale(1.1)
+}
+/*---------------------------------*/
+.card-6-hotel-chez-Amina
+{
+  font-family: raleway;
+  background-color: white;
+  padding: 6px;
+  border-radius: 23px 23px; 
+  box-shadow: 1px 1px 25px rgb(148, 148, 148);
+  height: 250px;
+  width: 100%;
+  line-height: 5%;
+  font-size: 20px;
+}
+
+
+.card-6-hotel-chez-Amina a
+{
+  text-decoration: none;
+  color: black;
+}
+.card-6-hotel-chez-Amina .hotel-chez-Amina
+{
+  background-size: cover;
+  width: 250px;
+  height: 150px;
+  border-radius: 20px 20px 0px 0px;
+}
+.card-6-hotel-chez-Amina:hover
+{
+  filter: drop-shadow(1px 1px 15px rgb(59, 242, 255));
+  transition: transform 2s, filter 1.1s ease-in-out;
+  transform-origin: center center;
+  transform: scale(1.1)
+}
+/*------------------------------------*/
+
+.afficher-plus
+{
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/*----- ASIDE LES PLUS POPULAIRES START-------*/
+#Les-plus-populaires
+{
+  display: flex;
+  flex-direction: column;
+  font-family: raleway;
+  background-color: #F2F2F2;
+  border-radius: 20PX;
+  margin-top: 8.4%;
+  padding: 2em;
+  padding-bottom: 8em;
+  height: 625px;
+}
+#Les-plus-populaires h1
+{
+  
+  font-size: 1.6em;
+}
+
+.chart
+{
+  padding-left: 80px;
+  font-size: 1.1em;
+}
+.popstar-1-soleil
+{
+  display: flex;
+  background-color: white;
+  border-radius: 23px 23px; 
+  box-shadow: 1px 1px 25px rgb(148, 148, 148);
+  padding: 5px;
+  font-size: 18px;
+  padding-bottom: 1px;
+  margin-bottom: 10%;
+}
+/*-----------TEXT AND STARS EST PARENT DES ENFANTS DES HOTELS SITUÉS DANS LES PLUS POPULAIRES--------*/
+.text-and-stars
+{
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*------------------------------------------------------------------------------------------------*/
+.popstar-1-soleil h4
+{
+  font-weight: bold;
+  margin-top: 14px;
+  margin-bottom: 0;
+}
+.popstar-1-soleil p
+{
+  font-size: 17px;
+  margin-top: 10px;
+}
+.popstar-1-soleil .stars
+{
+  grid-column-start: 2;
+  align-self: end;
+  margin-bottom: 15px;
+  padding-left: 0;
+}
+.popstar-1-soleil .hotel-le-soleil-du-matin
+{
+  background-size: cover;
+  width: 170px;
+  height: 170px;
+  border-radius: 20px 0px 0px 20px;
+}
+aside .moula
+{
+  font-weight: bold;
+}
+.popstar-1-soleil:hover
+{
+  filter: drop-shadow(1px 1px 15px rgb(59, 242, 255));
+  transition: transform 2s, filter 1.1s ease-in-out;
+  transform-origin: center center;
+  transform: scale(1.1)
+}
+/*---------------------------------*/
+.popstar-2-au-coeur-de-leau
+{
+  display: flex;
+  font-family: raleway;
+  background-color: white;
+  padding: 6px;
+  border-radius: 23px 23px; 
+  box-shadow: 1px 1px 25px rgb(148, 148, 148);
+  height: 170px;
+  font-size: 20px;
+  margin-bottom: 10%;
+}
+.popstar-2-au-coeur-de-leau h4
+{
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 14px;
+  margin-bottom: 0;
+}
+.popstar-2-au-coeur-de-leau p
+{
+  margin-top: 10px;
+  font-size: 17px;
+}
+.popstar-2-au-coeur-de-leau .stars
+{
+  grid-column-start: 2;
+  align-self: end;
+  margin-bottom: 15px;
+  padding-left: 0;
+}
+.popstar-2-au-coeur-de-leau .au-coeur-de-leau
+{
+  background-size: cover;
+  width: 170px;
+  height: 170px;
+  border-radius: 20px 0px 0px 20px;
+}
+.popstar-2-au-coeur-de-leau:hover
+{
+  filter: drop-shadow(1px 1px 15px rgb(59, 242, 255));
+  transition: transform 2s, filter 1.1s ease-in-out;
+  transform-origin: center center;
+  transform: scale(1.1)
+}
+/*----------------------------------------*/
+.popstar-3-hotel-tout-bleu-et-blanc
+{
+  display: flex;
+  font-family: raleway;
+  background-color: white;
+  padding: 6px;
+  border-radius: 23px 23px; 
+  box-shadow: 1px 1px 25px rgb(148, 148, 148);
+  height: 170px;
+  font-size: 20px;
+}
+.popstar-3-hotel-tout-bleu-et-blanc h4
+{
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 14px;
+  margin-bottom: 0;
+}
+.popstar-3-hotel-tout-bleu-et-blanc p
+{
+  font-size: 17px;
+  margin-top: 10px;
+}
+.popstar-3-hotel-tout-bleu-et-blanc .stars
+{
+  grid-column-start: 2;
+  align-self: end;
+  margin-bottom: 15px;
+  padding-left: 0;
+}
+.popstar-3-hotel-tout-bleu-et-blanc .tout-bleu-et-blanc
+{
+  background-size: cover;
+  width: 170px;
+  height: 170px;
+  border-radius: 20px 0px 0px 20px;
+}
+.popstar-3-hotel-tout-bleu-et-blanc:hover
+{
+  filter: drop-shadow(1px 1px 15px rgb(59, 242, 255));
+  transition: transform 2s, filter 1.1s ease-in-out;
+  transform-origin: center center;
+  transform: scale(1.1)
+}
+/*---------------ASIDE END------------------*/
+
+/*----------SECTION ACTIVITÉS START---------*/
+#activites
+{
+  font-family: raleway;
+  margin-top: 4%;
+}
+#activites-a-marseille h1
+{
+  padding-bottom: 1%;
+}
+.cards-2
+{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: 500px;
+  grid-gap: 50px;
+}
+
+.vieux-port
+{
+  grid-column: 1/ 2;
+  border-radius: 20px 20px;
+  box-shadow: 1px 1px 15px rgb(185, 185, 185);
+  background:white;
+  margin: 0;
+}
+.vieux-port:hover
+{
+  filter: drop-shadow(1px 1px 15px rgb(59, 242, 255));
+  transition: transform 2s, filter 1.1s ease-in-out;
+  transform-origin: center center;
+  transform: scale(1.1)
+}
+.fort-de-pomegues
+{
+  grid-column: 2/ 3;
+  border-radius: 20px 20px;
+  margin: 0;
+  box-shadow: 1px 1px 15px rgb(185, 185, 185);
+  padding-bottom: 8%;
+}
+.fort-de-pomegues:hover
+{
+  filter: drop-shadow(1px 1px 15px rgb(59, 242, 255));
+  transition: transform 2s, filter 1.1s ease-in-out;
+  transform-origin: center center;
+  transform: scale(1.1)
+}
+.iles-du-frioul
+{
+  grid-column: 2/ 3;
+  border-radius: 20px 20px;
+  margin: 0;
+  padding-bottom: 7%;
+  margin-top: 22%;
+  box-shadow: 1px 1px 15px rgb(185, 185, 185);
+  background: white;
+}
+.iles-du-frioul:hover
+{
+  filter: drop-shadow(1px 1px 15px rgb(59, 242, 255));
+  transition: transform 2s, filter 1.1s ease-in-out;
+  transform-origin: center center;
+  transform: scale(1.1)
+}
+
+.parc-national-des-calanques
+{
+  grid-column: 3/ 4;
+  border-radius: 20px 20px;
+  box-shadow: 1px 1px 15px rgb(185, 185, 185);
+  background:white;
+  margin: 0;
+}
+.parc-national-des-calanques:hover
+{
+  filter: drop-shadow(1px 1px 15px rgb(59, 242, 255));
+  transition: transform 2s, filter 1.1s ease-in-out;
+  transform-origin: center center;
+  transform: scale(1.1)
+}
+.notre-dame-de-la-garde
+{
+  grid-column: 4/ 5;
+  border-radius: 20px 20px;
+  margin: 0;
+  padding-bottom: 10%;
+  background: white;
+  box-shadow: 1px 1px 15px rgb(185, 185, 185) ;
+}
+.notre-dame-de-la-garde:hover
+{
+  filter: drop-shadow(1px 1px 15px rgb(59, 242, 255));
+  transition: transform 2s, filter 1.1s ease-in-out;
+  transform-origin: center center;
+  transform: scale(1.1)
+}
+.parc-longchamp
+{
+  grid-column: 4/ 5;
+  border-radius: 20px 20px;
+  margin: 0;
+  margin-top: 22%;
+  padding-bottom: 7%;
+  background: white;
+  box-shadow: 1px 1px 15px rgb(185, 185, 185) ;
+}
+.parc-longchamp:hover
+{
+  filter: drop-shadow(1px 1px 15px rgb(59, 242, 255));
+  transition: transform 2s, filter 1.1s ease-in-out;
+  transform-origin: center center;
+  transform: scale(1.1)
+}
+
+.le-vieux-p
+{
+  height: 89%;
+  width: 100%;
+  object-fit:cover;
+  border-radius: 20px 20px 0px 0px;
+}
+.fort-de-p
+{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+}
+.iles-du-fri
+{
+  width: 100%;
+  height: 120px;
+  object-fit:cover;
+  object-position: top;
+  border-radius: 20px 20px 0px 0px;
+}
+.pndc
+{
+  width: 100%;
+  height: 89%;
+  object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+
+}
+.nddlg
+{
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+}
+.parc-lc
+{
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+}
+
+figcaption
+{
+  font-weight: bold;
+  padding-left: 22px;
+  padding-top: 10px;
+}
+/*---------------SECTION 2 ACTIVITES A MARSEILLE END----------------*/
+
+/*--------------FOOTER---------------*/
+footer
+{
+  margin-top: 5%;
+  font-family: raleway;
+  background: #F2F2F2;
+}
+footer a
+{
+  text-decoration: none;
+  color: black;
+  line-height: 2.5em;
+}
+
+footer ul
+{
+  list-style-type: none;
+}
+.contents
+{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  padding-left: 4em;
+  padding-top: 2em;
+}
+.contents ul
+{
+  padding-left: 0;
+}
+/*----------FOOTER END-----------*/
+
+/*----------MEDIA QUERIES MOBILE FIRST START----------*/
+@media screen and (max-width: 480px)
+{
+  .part-1
+  {
+    display: block;
+  }
+  nav ul
+  {
+    display: flex;
+  }
+  .part-1 a:hover
+  {
+    border-top-style: none; 
+    border-bottom: 2px #0065FC solid;
+  }
+  .part-1 a 
+  {
+    padding: 1em;
+  }
+  .part-1 li 
+  {
+    border-bottom: 2px #F2F2F2 solid;
+    height: 50px;
+    margin: 0
+  }
+  }
+  .part-2 form
+  {
+    padding: 5px 0px 0px 0px;
+  }
+  .map
+  {
+    position: absolute;
+    padding: 12px 12px 0px 15px;
+    height: 30px;
+    width: 30px;
+  }
+  .chercher
+  {
+    position: relative;
+    padding: 0px 0px 3px 30px;
+    margin-left:45px;
+    height: 46px;
+    width: 78%;
+  }
+  .boutton
+  {
+    display: none;
+  }
+  .loupe
+  {
+    position: absolute;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #0065FC;
+    color: #F2F2F2;
+    right: 13%;
+    padding: 1.1em;
+    width: 3%;
+    height: 11px;
+  }
+/*-------------------------------*/ 
+  .part-3
+  {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    font-family: raleway;
+    font-weight: bold;
+    margin-top: 2%;
+    padding-bottom: 9%;
+  }
+  .part-3 p
+  {
+    padding-left: 3%;
+  }
+
+  .filters a
+  {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    margin: 0 5px;
+  }
+  .filters a:hover
+  {
+    filter: drop-shadow(1px 1px 15px rgb(59, 150, 255));
+    transition: transform 2s, filter 1.1s ease-in-out;
+    transform-origin: center center;
+    transform: scale(1.1)
+  }
+  .money
+  {
+    padding: 11px 9px;
+  }
+  .eco
+  {
+    padding: 9px 13px 9px 45px;  
+  }
+  .fam
+  {
+    padding: 11px 13px;
+  }
+  .mif
+  {
+    padding: 9px 13px 9px 45px; 
+  }
+  .hrt
+  {
+    padding: 11px 11px;
+    margin: 10px 0px 10px 0px;
+  }
+  .coeur
+  {
+    padding: 9px 13px 9px 45px; 
+    margin: 10px 0px 10px 0px;
+  }
+  .snoop
+  {
+    padding: 11px 11px;
+  }
+  .chien
+  {
+    padding: 9px 2px 9px 45px; 
+    width: 150px;
+  }
