@@ -880,7 +880,14 @@ footer ul
 }
 /*----------FOOTER END-----------*/
 
-/*----------MEDIA QUERIES MOBILE FIRST START----------*/
+/*----------MEDIA QUERIES START----------*/
+@media screen and (max-width: 1502px){
+ .part-3 .hrt-border
+ {
+   width: 16%;
+ }
+}
+/* ------------------------------------ */
 @media screen and (max-width: 1440px)
 {
   .part-2 p
@@ -897,9 +904,331 @@ footer ul
   {
     padding-left: 10%;
   }
-
+  .part-3 .dog-border
+  {
+    width: 22%;
+  }
+  .snoop
+  {
+    padding: 5.9%;
+  }
+  .hrt
+  {
+    padding: 8%;
+  }
+}
+@media screen and (max-width: 1416px){
+  .part-3 .money-border
+  {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 1385px){
+  .part-3 .hrt-border
+  {
+    width: 17%;
+  }
+}
+/* ----------------------------------- */
+@media screen and (max-width: 1354px){
+  .part-1 ul 
+  {
+    display: flex;
+  }
+  .cards .card-1-auberge-la-cannebiere h4
+  {
+    font-size: 97%;
+  }
+  .cards-2
+  {
+    grid-gap: 20px;
+  }
+}
+/* ----------------------------------- */
+@media screen and (max-width: 1323px){
+  .part-3 .money-border
+  {
+    width: 98%;
+  }
+  .eco
+  {
+    padding: 0 1%;
+  }
+  .fam
+  {
+    padding: 12% 14%;
+  }
+  .part-3 .fam-border
+  {
+    width: 70%;
+  }
+  .cards .card-1-auberge-la-cannebiere h4
+  {
+    font-size: 96%;
+  }
+}
+/* ------------------------------------ */
+@media screen and (max-width: 1313px){
+  .part-3 .hrt-border
+  {
+    width: 15%;
+  }
+  .hrt
+  {
+    padding: 9%;
+  }
+  .coeur
+  {
+    padding: 0 4%;
+  }
+  .part-3 .fam-border
+  {
+    width: 78%;
+  }
+  .cards .card-1-auberge-la-cannebiere h4
+  {
+    font-size: 93%;
+  }
+  .cards-2
+  {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 500px;
+    grid-gap: 20px;
+  }  
+}
+/* ---------------------------------- */
+@media screen and (max-width: 1297px){
+  .part-3 .dog-border
+  {
+    width: 23%;
+  }
+  .cards .card-1-auberge-la-cannebiere h4
+  {
+    font-size: 91%;
+  }
+}
+/* ----------------------------------- */
+@media screen and (max-width: 1262px){
+.part-3 .money-border
+{
+  width: 100%;
+}
+.part-3 .dog-border
+{
+  width: 20%;
+}
+.snoop
+{
+  padding: 6.8%;
+}
+.chien
+{
+  padding: 2%;
+}
+.cards .card-1-auberge-la-cannebiere h4
+  {
+    font-size: 88%;
+  }
+}
+/* ----------------------------------- */
+@media screen and (max-width: 1253px){
+ 
+.part-3 .money-border
+{
+  margin: 0 2%;
+  width: 190%;
+}
+.part-3 .fam-border
+{
+  width: 500px;
+}
+.fam 
+{
+  padding: 10% 12%;
+}
+.part-3 .hrt-border
+{
+  margin: 0 0.6%;
 }
 
+.cards .card-1-auberge-la-cannebiere h4
+  {
+    font-size: 87%;
+  }
+}
+/* ------------------------------------ */
+@media screen and (max-width: 1244px){
+  .part-3 .money-border
+  {
+    margin: 0 2%;
+    width: 195%;
+  }
+  .cards .card-1-auberge-la-cannebiere h4
+  {
+    font-size: 86%;
+  }
+  .popstar-2-au-coeur-de-leau .text
+  {
+    font-size: 92%;
+  }
+/* ---------------------------------- */
+@media screen and (max-width: 1235px){
+  .part-3 .money-border
+  {
+    margin: 0 2%;
+    width: 210%;
+  }
+  .fam
+  {
+    padding: 12% 14%;
+  }
+  .part-3 .hrt-border
+  {
+    width: 18%;
+  }
+  .hrt
+  {
+    padding:8%;
+  }
+  .part-3 .dog-border
+  {
+    width: 22%;
+  }
+  .snoop
+  {
+    padding: 6.6%;
+  }
+}
+/* ---------------------------------- */
+@media screen and (max-width: 1233px){
+  .cards .card-1-auberge-la-cannebiere h4
+  {
+    font-size: 85%;
+  }
+}
+/* ---------------------------------- */
+@media screen and (max-width: 1231px){
+  .cards .can-nuité
+  {
+    font-size: 85%;
+  }
+}
+/* ---------------------------------- */
+@media screen and (max-width: 1222px){
+  #hebergements
+  {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 70% 1fr;
+    grid-template-rows: 700px;
+    margin-top: 3%;
+  }
+}
+/* ---------------------------------- */
+@media screen and (max-width: 1211px){
+  .part-3 .money-border
+  {
+    margin: 0 2%;
+    width: 240%;
+  }
+  .part-3 .fam-border
+  {
+    width: 190%;
+  }
+}
+/* ---------------------------------- */
+@media screen and (max-width: 1191px){
+  .part-3 .money-border
+  {
+    margin: 0 1%;
+    width: 290%;
+  }
+  .part-3 .fam-border
+  {
+    width: 220%;
+  }
+}
+/* ---------------------------------- */
+@media screen and (max-width: 1172px){
+  .part-3 .money-border
+  {
+    margin: 0 1.2%;
+    width: 320%;
+  }
+  .part-3 .fam-border
+  {
+    width: 250%;
+  }
+  .part-1
+  {
+    width: 95%;
+  }
+}
+/* ---------------------------------- */
+@media screen and (max-width: 1168px){
+
+  .part-3 .money-border
+  {
+    margin: 0 ;
+    width: 500%;
+  }
+  .money
+  {
+    padding: 10% 8%;
+  }
+  .eco
+  {
+    font-size: 90%;
+  }
+  .part-3 .fam-border
+  {
+    width: 70em;
+  }
+  .part-3 .hrt-border
+  {
+    width: 17%;
+  }
+  .hrt
+  {
+    padding: 9%;
+  }
+  .snoop
+  {
+    padding: 7%;
+  }
+  .filters
+  {
+    display: flex;
+  }
+  .fam
+  {
+    padding: 12% 14%;
+  }
+  .part-3 .hrt-border
+  {
+    margin: 0;
+  }
+  .notre-dame-de-la-garde figcaption
+  {
+    padding: 0.5em 0 0 0.6em;
+  }
+}
+/* ---------------------------------- */
+@media screen and (max-width: 1145px){
+  .cards .card-1-auberge-la-cannebiere h4
+  {
+    font-size: 84%;
+  }
+  .card-3-hotel-les-mouettes h4
+  {
+    font-size: 90%;
+  }
+  .popstar-2-au-coeur-de-leau h4
+  {
+    font-size: 90%;
+  }
+}
 /* ---------------------------------- */
 @media screen and (max-width: 1024px)
 {
@@ -922,26 +1251,37 @@ footer ul
  
   .part-3 .hrt-border
   {
+    margin: 0 0.5%;
     width: 18%;
+  }
+  .mif
+  {
+    font-size: 95%;
   }
   .hrt
   {
-    padding: 10%;
+    padding: 9%;
   }
   .coeur
   {
+    font-size: 95%;
     padding: 0 5%;
   }
   .part-3 .dog-border
   {
     border: 3px #F2F2F2 solid;
     border-radius: 40px;
-    width: 24%;
-    margin: 0 1%;
+    width: 22%;
+    margin: 0;
     background-color: rgb(255, 255, 255);
+  }
+  .part-3 .money-border
+  {
+    margin: 0 1% 0 1%;
   }
   .chien
   {
+    font-size: 95%;
     padding: 0 3%;
   }
   .cards
@@ -1041,10 +1381,14 @@ footer ul
   {
     font-size: 85%;
   }
+  .part-1
+  {
+    width: 90%;
+  }
 }
 /* -------------------------------------- */
-
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px)
+{
   html
   {
     margin: 0;
@@ -1326,5 +1670,4 @@ footer ul
     display: flex;
     flex-direction: column;
   }
-
 }
