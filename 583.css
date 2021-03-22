@@ -1,0 +1,32 @@
+/*Début du media query de 583px*/
+    .part-1
+    {
+      padding: 0;
+    }
+    .filters
+    {
+      padding-left: 12%;
+    }
+    .part-2 .map
+    {
+      padding: 1.2em;
+    }
+    .boutton
+    {
+      display: none;
+    }
+    .part-2 .loupe
+    {
+      display: inline-block;
+      background-color: #0065FC;
+      color: #F2F2F2;
+      border-radius: 15px;
+      padding: 1.2em;
+      cursor: pointer;
+    }
+    .chercher
+    {
+      border: 1px #F2F2F2 solid;
+      padding-left: 80%;
+    }
+  /*Fin du media query de 583px*/

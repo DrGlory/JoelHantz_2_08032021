@@ -1,0 +1,14 @@
+/*Début de media query de 1354px*/
+    .part-1 ul 
+    {
+      display: flex;
+    }
+    .cards .card-1-auberge-la-cannebiere h4
+    {
+      font-size: 97%;
+    }
+    .cards-2
+    {
+      grid-gap: 20px;
+    }
+  /*Fin du media query de 1354px*/

@@ -1,0 +1,7 @@
+/*Début du media query de 736px*/
+    .cards-2
+    {
+      display: grid;
+      grid-template-columns: 55% 1fr;
+    }
+  /*Fin du media query de 736px*/

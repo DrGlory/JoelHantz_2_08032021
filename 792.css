@@ -1,0 +1,12 @@
+/*Début du media query de 792px*/
+    .filters
+    {
+      height: 1.7em;
+      width: 37em;
+      display: flex; 
+    }
+    .part-4
+    {
+      padding-top: 4%;
+    }
+  /*Fin du media query de 792px*/

@@ -1,0 +1,11 @@
+/*Début du media query de 1056px*/
+    .eco-fam
+    {
+      flex-grow: 0.2;
+    }
+    .part-1 li
+    {
+      margin: 0;
+      max-width: 100%;
+    }
+  /*Fin du media querry de 1056px*/

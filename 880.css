@@ -1,0 +1,44 @@
+/*Début du media query de 880px*/
+    .part-1
+    {
+      display: flex;
+      width: 0%;
+      padding-left:20% ;
+    }
+    header
+    {
+      text-align: center;
+      padding-bottom: 3%;
+    }
+    form
+    {
+      max-width: 100%;
+      display: flex;
+      justify-content: center;
+      padding-right: 35%;
+    }
+    .filters
+    {
+      height: 1.7em;
+    }
+    .filters p
+    {
+      margin-top: 1px;
+    }
+    .money
+    {
+      padding: 1%;
+    }
+    .fam
+    {
+      padding: 1%;
+    }
+    .hrt
+    {
+      padding: 1%;
+    }
+    .snoop
+    {
+      padding: 1%;
+    }
+  /*Fin du media query de 880px*/

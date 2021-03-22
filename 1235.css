@@ -1,0 +1,27 @@
+/*Début du media query de 1235px*/
+    .part-3 .money-border
+    {
+      margin: 0 2%;
+      width: 210%;
+    }
+    .fam
+    {
+      padding: 12% 14%;
+    }
+    .part-3 .hrt-border
+    {
+      width: 18%;
+    }
+    .hrt
+    {
+      padding:8%;
+    }
+    .part-3 .dog-border
+    {
+      width: 22%;
+    }
+    .snoop
+    {
+      padding: 6.6%;
+    }
+  /*Fin du media query de 1235px*/

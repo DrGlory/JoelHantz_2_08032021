@@ -1,0 +1,47 @@
+/*Début du media query de 1168px*/
+    .part-3 .money-border
+    {
+      margin: 0 ;
+      width: 500%;
+    }
+    .money
+    {
+      padding: 10% 8%;
+    }
+    .eco
+    {
+      font-size: 90%;
+    }
+    .part-3 .fam-border
+    {
+      width: 70em;
+    }
+    .part-3 .hrt-border
+    {
+      width: 17%;
+    }
+    .hrt
+    {
+      padding: 9%;
+    }
+    .snoop
+    {
+      padding: 7%;
+    }
+    .filters
+    {
+      display: flex;
+    }
+    .fam
+    {
+      padding: 12% 14%;
+    }
+    .part-3 .hrt-border
+    {
+      margin: 0;
+    }
+    .notre-dame-de-la-garde figcaption
+    {
+      padding: 0.5em 0 0 0.6em;
+    }
+  /*Fin du media query de 1168px*/

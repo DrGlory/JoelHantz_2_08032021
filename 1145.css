@@ -1,0 +1,14 @@
+/* Début du media query de 1145px*/
+    .cards .card-1-auberge-la-cannebiere h4
+    {
+      font-size: 84%;
+    }
+    .card-3-hotel-les-mouettes h4
+    {
+      font-size: 90%;
+    }
+    .popstar-2-au-coeur-de-leau h4
+    {
+      font-size: 90%;
+    }
+  /*Fin du media query de 1145px*/

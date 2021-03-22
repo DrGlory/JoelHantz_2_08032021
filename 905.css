@@ -1,0 +1,6 @@
+/*Début du media query de 905px*/
+    .hrt-border
+    {
+      flex-grow: 0.2;
+    }
+  /*Fin du media query de 905px*/

@@ -1,0 +1,22 @@
+/*Début du media query de 1323px*/
+    .part-3 .money-border
+    {
+      width: 98%;
+    }
+    .eco
+    {
+      padding: 0 1%;
+    }
+    .fam
+    {
+      padding: 12% 14%;
+    }
+    .part-3 .fam-border
+    {
+      width: 70%;
+    }
+    .cards .card-1-auberge-la-cannebiere h4
+    {
+      font-size: 96%;
+    }
+  /*Fin du media query de 1323px*/

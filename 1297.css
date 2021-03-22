@@ -1,0 +1,10 @@
+/*Début du media query de 1297px*/
+    .part-3 .dog-border
+    {
+      width: 23%;
+    }
+    .cards .card-1-auberge-la-cannebiere h4
+    {
+      font-size: 91%;
+    }
+  /*Fin du media query de 1297px*/

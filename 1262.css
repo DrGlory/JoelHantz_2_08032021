@@ -1,0 +1,22 @@
+/*Début du media query de 1262px*/
+    .part-3 .money-border
+    {
+      width: 100%;
+    }
+    .part-3 .dog-border
+    {
+      width: 20%;
+    }
+    .snoop
+    {
+      padding: 6.8%;
+    }
+    .chien
+    {
+      padding: 2%;
+    }
+    .cards .card-1-auberge-la-cannebiere h4
+    {
+      font-size: 88%;
+    }
+  /*Fin du media query de 1262px*/

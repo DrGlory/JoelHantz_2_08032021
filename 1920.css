@@ -1,0 +1,11 @@
+/*media query 1920px*/
+    .part-2 p
+    {
+      border: none;
+    }
+    .part-2 .chercher
+    {
+      border: 1px #F2F2F2 solid;
+      padding: 4.3% 1% 4.2% 15.3%;
+    }
+    /*Fin du media query de 1920px */

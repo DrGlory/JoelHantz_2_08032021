@@ -1,0 +1,30 @@
+
+/*Début du media query de 1313px*/
+    .part-3 .hrt-border
+    {
+      width: 15%;
+    }
+    .hrt
+    {
+      padding: 9%;
+    }
+    .coeur
+    {
+      padding: 0 4%;
+    }
+    .part-3 .fam-border
+    {
+      width: 78%;
+    }
+    .cards .card-1-auberge-la-cannebiere h4
+    {
+      font-size: 93%;
+    }
+    .cards-2
+    {
+      display: grid;
+     
+      grid-template-rows: 500px;
+      grid-gap: 20px;
+    }  
+  /*Fin du media query de 1313px*/

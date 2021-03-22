@@ -1,0 +1,12 @@
+
+/*Début du media query de 1191px*/
+    .part-3 .money-border
+    {
+      margin: 0 1%;
+      width: 290%;
+    }
+    .part-3 .fam-border
+    {
+      width: 220%;
+    }
+  /*Fin du media query de 1191px*/

@@ -1,0 +1,102 @@
+/*Début du media query de 726px*/
+    /* body{
+      background-color: #262626;
+    } */
+    .part-2 .map
+    {
+      padding: 20%;
+    }
+    .filters
+    {
+      width:65em;
+      height: auto;
+      flex-direction: column;
+      align-items: flex-start;
+      padding-left:20%;
+    }
+    .money-border
+    {
+      display: flex;
+    }
+    .money
+    {
+      padding: 1em 0.9em;
+    }
+    .fam-border
+    {
+      display: flex;
+    }
+    .eco
+    {
+      padding: 9% 0 0 5%;
+    }
+    .fam
+    {
+      padding: 10% 14%;
+    }
+    .mif
+    {
+      padding: 9% 0 0 5%;
+    }
+    .hrt
+    {
+      padding: 8.5%;
+    }
+    .hrt-border
+    {
+      display: flex;
+    }
+    .part-3 .hrt-border
+    {
+      margin: 1%;
+    }
+    .coeur
+    {
+      padding: 7% 0 0 7%;
+    }
+    .dog-border
+    {
+      display: flex;
+    }
+    .snoop
+    {
+      padding: 7%;
+    }
+    .chien
+    {
+      padding: 6% 0 0 5%;
+    }
+    .eco-fam
+    {
+      max-width: 100%;
+    }
+    .part-1
+    {
+      padding-left: 3em;
+    }
+    .cards-2
+    {
+      display: grid;
+      grid-template-columns: 50% 1fr;
+    }
+    .parc-national-des-calanques figcaption
+    {
+      padding-left:10%;
+    }
+    #cards-hebergement-a-marseille h1
+    {
+      text-align: center;
+    }
+    #activites-a-marseille h1 
+    {
+      text-align: center;
+    }
+    form
+    {
+      padding-right: 16em;
+    }
+    .a-propos h3
+    {
+      margin-left: 13%;
+    }
+  /*Fin du media query de 726px*/

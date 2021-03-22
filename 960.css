@@ -1,0 +1,6 @@
+/*Début du media query de 960px*/
+    .eco-fam
+    {
+      flex-grow: 0.4;
+    }
+  /* Fin du media query de 960px*/

@@ -1,0 +1,49 @@
+/*Début du media query de 546px*/
+    .part-1
+    {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .part-1 nav
+    {
+      order: 2;
+      display: flex;
+      margin-left:0;
+    }
+    .part-1 a:hover
+    {
+      border-top-style: none; 
+      border-bottom: 2px #0065FC solid;
+    }
+    .part-1 a 
+    {
+      padding: 1em 3em 1em 3em;  
+    }
+    .part-1 li 
+    {
+      border-bottom: 2px #F2F2F2 solid;
+      height: 50px;
+      margin: 0px;  
+    }
+    .part-1 .intrus
+    {
+      order: 1;
+      padding-top: 5px;
+      font-weight: bold;
+      position: absolute;
+      top: 0px;
+      right: 60px;
+    }
+    form
+    {
+      padding-right: 18em;
+    }
+    .part-2 p
+    {
+      border: none;
+    }
+    .filters
+    {
+      padding-left: 10%;
+    }
+  /*Début du media query de 546px*/

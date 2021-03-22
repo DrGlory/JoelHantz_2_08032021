@@ -1,0 +1,15 @@
+/*Début du media query de 1244px*/
+    .part-3 .money-border
+    {
+      margin: 0 2%;
+      width: 195%;
+    }
+    .cards .card-1-auberge-la-cannebiere h4
+    {
+      font-size: 86%;
+    }
+    .popstar-2-au-coeur-de-leau .text
+    {
+      font-size: 92%;
+    }
+  /*Fin du media query de 1244px*/

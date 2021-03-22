@@ -1,0 +1,93 @@
+/*Début du media query de 796px*/
+    .part-1
+    {
+      padding-left:14%;
+    }
+    .part-3 .money-border
+    {
+      width: 81em;
+    }
+    #hebergements
+    {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns:1fr;
+      grid-template-rows: 1fr 1fr;
+      margin-top: 3%;
+    }
+    #hebergements-a-marseille
+    {
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+    #Les-plus-populaires
+    {
+      grid-column: 1/2;
+      grid-row: 2/3;
+      height: 90%;
+      background: none;
+      align-items: center;
+    }
+    #Les-plus-populaires .text
+    {
+      font-size: 1.1em;
+    }
+    .popstar-1-soleil
+    {
+      width: 80%;
+    }
+    .popstar-2-au-coeur-de-leau
+    {
+      width: 80%;
+    }
+    .popstar-3-hotel-tout-bleu-et-blanc
+    {
+      width: 80%;
+    }
+    .cards-2
+    {
+      display: grid;
+      grid-template-columns: 60% 1fr;
+      grid-template-rows: 1fr 1fr;
+    }
+    .vieux-port
+    {
+      grid-column: 1/3;
+      grid-row: 1/2;
+    }
+    .parc-national-des-calanques 
+    {
+      grid-column: 1/3;
+      grid-row: 2/3;
+    }
+    .parc-national-des-calanques figcaption
+    {
+      font-size: 100%;
+    }
+    .fort-de-pomegues-et-iles-du-frioul
+    {
+      grid-column: 3/4;
+      grid-row: 1/2;
+    }
+    .notre-dame-de-la-garde-et-parc-longchamp
+    {
+      grid-column: 3/4;
+      grid-row: 2/3;
+    }
+    .contents
+    {
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .a-propos
+    {
+      padding-left:12%;
+    }
+    .nos-hebergements
+    {
+      padding-left: 5%;
+    }
+  /*Fin du media query de 796px*/

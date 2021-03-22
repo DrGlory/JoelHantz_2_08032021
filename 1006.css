@@ -1,0 +1,18 @@
+/*Début du media query de 1006px*/
+    .dog-border
+    {
+      flex-grow: 0.2;
+    }
+    .eco-fam
+    {
+      flex-grow: 0.3;
+    }
+    .fort-de-pomegues figcaption
+    {
+      padding: 3% 0 0 7%;
+    }
+    .parc-national-des-calanques figcaption
+    {
+      padding: 1% 0 0 20%;
+    }
+  /*Fin du media query de 1006px*/

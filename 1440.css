@@ -1,0 +1,29 @@
+
+/*Début du media query de 1440px*/
+    .part-2 p
+    {
+      display: flex;
+      border-radius: 20px;
+      width: 30%;
+    }
+    .boutton
+    {
+      padding: 5.6% 7.2% 5.7% 8%;
+    }
+    .chercher
+    {
+      padding-left: 10%;
+    }
+    .part-3 .dog-border
+    {
+      width: 22%;
+    }
+    .snoop
+    {
+      padding: 5.9%;
+    }
+    .hrt
+    {
+      padding: 8%;
+    }
+  /*Fin du media query de 1440px*/

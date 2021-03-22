@@ -1,0 +1,13 @@
+/*Début du media query de 1085px*/
+    .dog-border
+    {
+      flex-grow: 0.1;
+    }
+    .cards-2
+    {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+      grid-template-rows: 500px;
+      grid-gap: 5px;
+    }
+  /*Fin du media query de 1085px*/

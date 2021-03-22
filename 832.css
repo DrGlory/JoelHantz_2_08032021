@@ -1,0 +1,14 @@
+/*Début du media query de 832px*/
+    .card-2-hotel-du-port h4
+    {
+      font-size: 85%;
+    }
+    .card-6-hotel-chez-Amina h4
+    {
+      font-size: 90%;
+    }
+    .cards .can-nuité
+    {
+      font-size: 80%;
+    } 
+   /*Fin du media query de 832px*/

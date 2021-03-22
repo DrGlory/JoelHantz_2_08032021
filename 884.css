@@ -1,0 +1,18 @@
+/*Début du media query de 884px*/
+    .hrt-border
+    {
+      flex-grow: 0.3;
+    }
+    .eco-fam
+    {
+      flex-grow: 1.1;
+    }
+    .dog-border
+    {
+      flex-grow: 0.7;
+    }
+    .part-1
+    {
+      width: 75%;
+    }
+  /*Fin du media query de 884px*/
