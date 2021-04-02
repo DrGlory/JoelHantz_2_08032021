@@ -2337,7 +2337,7 @@ footer ul
 }
 /*Fin du media query de 480px */
 /*Début du media query de 375px */
-@media screen and (max-width: 375px){
+@media screen and (max-width: 378px){
   .part-2 .chercher
   {
     font-size: small;
