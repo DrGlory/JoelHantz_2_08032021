@@ -894,7 +894,11 @@ footer ul
   }
   .hrt
   {
-    padding: 8%;
+    padding: 8.7%;
+  }
+  .fam
+  {
+    padding: 10.5% 12%;
   }
 }
 /*Fin du media query de 1440px*/
@@ -1294,7 +1298,7 @@ footer ul
   }
   .hrt
   {
-    padding: 9%;
+    padding: 9.7%;
   }
   .coeur
   {
@@ -1313,10 +1317,18 @@ footer ul
   {
     margin: 0 1% 0 1%;
   }
+  .fam
+  {
+    padding: 13.6% 15%;
+  }
   .chien
   {
     font-size: 95%;
     padding: 0 3%;
+  }
+  .snoop
+  {
+    padding: 7.7%;
   }
   .cards
   {
@@ -1716,6 +1728,18 @@ footer ul
   }
 }
 /*Fin du media query de 792px*/
+/*Début du media query de 768px*/
+@media screen and (max-width: 768px){
+  #cards-hebergement-a-marseille h1 
+  {
+    text-align: center;
+  }
+  #activites-a-marseille h1 
+  {
+    text-align: center;
+  }
+}
+/*Début du media query de 768px*/
 /*Début du media query de 736px*/
 @media screen and (max-width: 736px){
   .cards-2
@@ -2333,6 +2357,11 @@ footer ul
   {
     width: 60%;
   }
+  #cards-hebergement-a-marseille h1
+  {
+    font-size: 22px;
+    padding-bottom: 10%;
+  }
 }
 /*Fin du media query de 375px */
 /*Début du media query de 320px */
@@ -2340,7 +2369,36 @@ footer ul
   .part-2 .chercher
   {
     font-size:x-small;
-    padding-left: 5%;
+    padding-left: 10%;
+  }
+  .part-4 .fif
+  {
+    font-size: smaller;
+  }
+  .cards .afficher-plus
+  {
+    font-size: 100%;
+  }
+  #Les-plus-populaires h1{
+    font-size: 100%;
+  }
+  #cards-hebergement-a-marseille h1
+  {
+    font-size: 100%;
+    padding-bottom: 10%;
+  }
+  #activites-a-marseille h1
+  {
+    font-size: 100%;
+    padding-bottom: 10%;
+  }
+  .part-2 .loupe
+  {
+    padding: 5%;
+  }
+  .part-2 .map
+  {
+    padding: 6%;
   }
 
   .part-3 .money-border
